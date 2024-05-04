@@ -1,5 +1,57 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* body section */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+/* header section */
+
+.container .header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.container .header .logo {
+    width: 30px;
+    cursor: pointer;
+}
+
+.container .header a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-left: 60px;
+}
+
+.container .header .first-i {
+    color: white;
+    font-size: 25px;
+    margin-left: 600px;
+    cursor: pointer;
+}
+
+.container .header .second-i {
+    color: white;
+    font-size: 25px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.container .header .cartoon {
+    width: 30px;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+/* body section first row */
+
+/* body section second row */
